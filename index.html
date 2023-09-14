@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<main>
+    <section class="calculator">
+        <div class="display_result"><textarea disabled class="result" type="number" cols="30" rows="10"></textarea></div>
+        <div class="container_buttons">
+            <button class="clear">AC</button> 
+            <button value="" class="erase" style="transform: rotate(180deg); font-size: 1.5rem; font-weight: 100;"><i class="uil uil-cancel"></i></button> 
+            <button value="%"  data-operadores>%</button> 
+            <button value="/"  data-operadores>/</button>
+
+            <button value="7" data-numbers>7</button>
+            <button value="8" data-numbers>8</button>
+            <button value="9" data-numbers>9</button>
+            <button value="*" data-operadores>X</button>
+
+            <button value="4" data-numbers>4</button>
+            <button value="5" data-numbers>5</button>
+            <button value="6" data-numbers>6</button>
+            <button value="-" data-operadores>-</button>
+
+            <button value="1" data-numbers>1</button>
+            <button value="2" data-numbers>2</button>
+            <button value="3" data-numbers>3</button>
+            <button value="+" data-operadores>+</button>
+
+            <button>( )</button>
+            <button value="0" data-numbers>0</button>
+            <button value="." data-operadores>.</button>
+            <button class="equal" value="" data-operadores>=</button>
+        </div>
+    </section>
+</main>
+    
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+ let btnValue = event.target.value;
+
+    // verifica se o textarea não possui nenhum valor e se não tiver, o botão de operadores desativa
+    if(event.target.hasAttribute('data-operadores') && displayResult.textContent == '') {
+        btnValue = ''
+        displayResult.textContent += btnValue;
+
+    } 
+    
+    else {
+        displayResult.textContent += btnValue;
+    }
